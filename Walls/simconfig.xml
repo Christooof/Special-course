@@ -13,7 +13,7 @@
   
   <!-- Simulator configuration -->
   <simstage>
-    <world wallmap="385wall_easy labyrinth" scale="50"/>
+    <world wallmap="Labyrinth" scale="50"/>
     <guidemark  gmno="1"   gmpose="0.0 0.5.0 0" />
     <guidemark  gmno="2"   gmpose="3.0 0.5 3.14" />
   </simstage>
