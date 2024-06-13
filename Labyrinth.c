@@ -87,7 +87,6 @@ int main() {
     //send(client_fd_mrc, "log \"$time\" \"$l0\" \"$l4\" \"$l8\"\n", strlen("log \"$time\" \"$l0\" \"$l4\" \"$l8\"\n"), 0);
     send(client_fd_mrc, "laser \"scanpush cmd='zoneobst'\"\n", strlen("laser \"scanpush cmd='zoneobst'\"\n"), 0);
     send(client_fd_mrc, fwd_mrc, strlen(fwd_mrc), 0);
-    send(client_fd_mrc, "fwd 0.1\n", strlen("fwd 0.1\n"), 0);
     send(client_fd_mrc, "stop\n", strlen("stop\n"), 0);
     printf("Program started\n");
 
